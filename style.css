@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", serif;
+  background-color: #f8f9fa;
+}
+/* navigation section */
+nav {
+  border: 1px solid #dfd7d7e7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.logo {
+  width: 30px;
+  height: 40px;
+  border-radius: 10%;
+  object-fit: fill;
+  object-position: 50%;
+  margin-left: 100px;
+}
+.homepage {
+  width: auto;
+  height: 80px;
+  /* border: 1px solid #000; */
+  background: #f8f9fa;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+nav ul li a {
+  /* border: 1px solid #000; */
+  display: block;
+  padding: 10px 10px 10px;
+  text-decoration: none;
+  font-size: 1em;
+  font-style: normal;
+  color: #ff7e73;
+  transition: 0.5s;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+nav ul li a:hover {
+  color: #776464;
+  box-shadow: 3px 3px #ff7e73;
+}
+.talk-to-mentor a {
+  /* border: 1px solid #000; */
+  background-color: #ff7e73;
+  color: #f8f9fa;
+  display: block;
+  padding: 10px 10px 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/* header section */
+header {
+  /* border: 1px solid #000; */
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.card {
+  width: 100%;
+  transform: scale(1.05);
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.card-title {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 200;
+  color: #776464;
+}
+.main {
+  font-family: "Eczar", serif;
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: bold;
+  color: #ff7e73;
+  margin-bottom: 5px;
+}
+.card p {
+  color: #776464;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.btn {
+  background-color: #ff7e73;
+  color: #f8f9fa;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.btn .arr {
+  margin-left: 10px;
+}
+.banner {
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transform: scale(0.7);
+  margin-right: 70px;
+}
